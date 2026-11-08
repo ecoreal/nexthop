@@ -1,0 +1,40 @@
+{
+  "name": "nexthop",
+  "version": "0.1.0",
+  "description": "Pass the baton between AI coding CLIs — turn any Claude Code / Codex session into a HANDOFF.md the next agent picks up. One command, zero dependencies, read-only on the source session.",
+  "license": "MIT",
+  "author": "ecoreal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecoreal/nexthop.git"
+  },
+  "homepage": "https://github.com/ecoreal/nexthop#readme",
+  "bugs": "https://github.com/ecoreal/nexthop/issues",
+  "keywords": [
+    "ai",
+    "claude-code",
+    "codex",
+    "handoff",
+    "session",
+    "context",
+    "cli",
+    "agents"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18.17"
+  },
+  "bin": {
+    "nexthop": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "private": false
+}
